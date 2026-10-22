@@ -1,3 +1,4 @@
+
 # Event-Aware Video Monitoring and Retrieval
 
 A command-line video monitoring project that detects objects in motion, indexes
@@ -254,3 +255,4 @@ a web UI, public hosting, authentication, or multi-user support. A public
 deployment would require a web interface/API, persistent storage, access
 controls, deployment configuration, and testing on the chosen host. Do not
 expose the local Ollama service publicly without appropriate security controls.
+
