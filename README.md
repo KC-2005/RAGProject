@@ -36,6 +36,20 @@ deployment.
 | `src/rag_answer.py` | Evidence-grounded answer generation (OpenAI or Ollama) |
 | `tests/` | Automated unit and integration tests |
 
+## Detection Screenshot Gallery
+
+Each screenshot shows an event thumbnail, detected class, confidence, and event timestamp.
+
+| Detection | Detection |
+| --- | --- |
+| ![evt_001](thumbnails/evt_001.jpg)<br>**evt_001** — car · 78.47% · 2026-10-14 21:55:58 | ![evt_002](thumbnails/evt_002.jpg)<br>**evt_002** — car · 74.57% · 2026-10-14 21:55:58 |
+| ![evt_003](thumbnails/evt_003.jpg)<br>**evt_003** — car · 69.57% · 2026-10-14 21:55:58 | ![evt_004](thumbnails/evt_004.jpg)<br>**evt_004** — car · 69.28% · 2026-10-14 21:55:58 |
+| ![evt_005](thumbnails/evt_005.jpg)<br>**evt_005** — car · 67.68% · 2026-10-14 21:55:58 | ![evt_006](thumbnails/evt_006.jpg)<br>**evt_006** — car · 67.42% · 2026-10-14 21:55:58 |
+| ![evt_007](thumbnails/evt_007.jpg)<br>**evt_007** — car · 66.79% · 2026-10-14 21:55:58 | ![evt_008](thumbnails/evt_008.jpg)<br>**evt_008** — car · 59.50% · 2026-10-14 21:55:58 |
+| ![evt_009](thumbnails/evt_009.jpg)<br>**evt_009** — car · 57.79% · 2026-10-14 21:55:58 | ![evt_010](thumbnails/evt_010.jpg)<br>**evt_010** — car · 53.45% · 2026-10-14 21:55:58 |
+| ![evt_011](thumbnails/evt_011.jpg)<br>**evt_011** — car · 52.75% · 2026-10-14 21:55:58 | ![evt_012](thumbnails/evt_012.jpg)<br>**evt_012** — car · 52.61% · 2026-10-14 21:55:58 |
+| ![evt_013](thumbnails/evt_013.jpg)<br>**evt_013** — car · 64.09% · 2026-10-14 21:55:59 | ![evt_014](thumbnails/evt_014.jpg)<br>**evt_014** — car · 63.50% · 2026-10-14 21:55:59 |
+
 ## macOS setup
 
 Run commands from the project root. The checked-in `.venv` may be a Windows
@@ -255,4 +269,3 @@ a web UI, public hosting, authentication, or multi-user support. A public
 deployment would require a web interface/API, persistent storage, access
 controls, deployment configuration, and testing on the chosen host. Do not
 expose the local Ollama service publicly without appropriate security controls.
-
